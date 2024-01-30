@@ -2,7 +2,6 @@
 import "regenerator-runtime"
 import React, {useState, useContext, createContext, useEffect} from 'react';
 import useLLM from "usellm"; 
-import Chats from "../data/Chats.js"; 
 import speech, { useSpeechRecognition }  from "react-speech-recognition"; 
 
 const AppContext = createContext(); 
